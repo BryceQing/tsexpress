@@ -23,6 +23,12 @@ Start the application with command line below.
 ```
 npm start
 ```
+## Hot Server
+Run the project with hot-update property by using webpack and nodemon.
+
+```
+npm run webpackstart
+```
 
 Open url below in browser for test.    
 http://localhost:3000/
