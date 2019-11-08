@@ -4,7 +4,6 @@ import {Request, Response} from 'express';
  * Home page.
  */
 export let index = (req: Request, res: Response) => {
-  res.render("index", {
-    title: "Express"
-  });
+  res.render("index", {});
+  // res.send('respond with the user list here');
 };

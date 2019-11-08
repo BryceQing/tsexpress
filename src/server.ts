@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+
 
 /**
  * Module dependencies.
@@ -6,7 +6,8 @@
 
 import app from "./app";
 import http from "http";
-import debug = require('debug');
+// import debug = require('debug');
+import * as debug from 'debug';
 
 /**
  * Get port from environment and store in Express.
@@ -89,5 +90,5 @@ function onListening() {
   debug('Listening on ' + bind);
 }
 
-export = server;
+export default server;
 
