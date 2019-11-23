@@ -35,6 +35,8 @@
     "author": "Pan Rufeng",
     "license": "MIT",
     "dependencies": {
+        "@types/app-root-path": "^1.2.4",
+        "app-root-path": "^3.0.0",
         "body-parser": "^1.19.0",
         "cookie-parser": "~1.4.3",
         "debug": "~2.6.9",
